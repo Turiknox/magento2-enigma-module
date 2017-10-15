@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_Enigma
+ * @category   Turiknox
+ * @package    Turiknox_Enigma
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/turiknox/magento2-enigma-module/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="turiknox" sortOrder="1000">
+            <label>Turiknox</label>
+        </tab>
+        <section id="enigma" type="text" sortOrder="95" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Enigma Theme</label>
+            <tab>turiknox</tab>
+            <resource>Turiknox_Enigma::config</resource>
+            <group id="social" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Social Media Account Links</label>
+                <field id="facebook" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Facebook</label>
+                </field>
+                <field id="twitter" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Twitter</label>
+                </field>
+                <field id="instagram" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Instagram</label>
+                </field>
+                <field id="googleplus" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Google Plus</label>
+                </field>
+                <field id="pinterest" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Pinterest</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

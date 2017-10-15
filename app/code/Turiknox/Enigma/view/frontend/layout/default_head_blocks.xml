@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Turiknox_Enigma
+ * @category   Turiknox
+ * @package    Turiknox_Enigma
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/turiknox/magento2-enigma-module/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <remove src="css/print.css" />
+    </head>
+</page>
